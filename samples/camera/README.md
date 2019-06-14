@@ -1,6 +1,7 @@
 # Goal
 
-Demonstrate how to use manual exposureMode and focusDistance.
+Demonstrate how to use manual exposureMode, focusDistance, and
+contrast.
 
 # Motivation
 
