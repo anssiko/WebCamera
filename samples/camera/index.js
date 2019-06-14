@@ -64,17 +64,17 @@ function gotMedia(mediastream) {
     // Check whether exposureTime is supported or not.
     if (!capabilities.exposureTime) {
       console.error('exposureTime not supported.');
-      return;
+      //return;
     }
     // Check whether focusDistance is supported or not.
     if (!capabilities.focusDistance) {
       console.error('focusDistance not supported.');
-      return;
+      //return;
     }
     // Check whether contrast is supported or not.
     if (!capabilities.contrast) {
       console.error('contrast not supported.');
-      return;
+      //return;
     }
     
     exposureTimeSlider.min = capabilities.exposureTime.min;
